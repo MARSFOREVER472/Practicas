@@ -1,2 +1,2 @@
 # Practicas
-_Ejercicios con JavaScript para practicar._
+**_Ejercicios con JavaScript para practicar._**
