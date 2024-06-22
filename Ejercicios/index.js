@@ -31,3 +31,6 @@ function operacionMatematica(a, b, operation)
 // EJECUCIÓN DE FUNCIONES...
 
 operacionMatematica(2, 2, "suma"); // DA 4 EL RESULTADO.
+operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
+operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
+operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
