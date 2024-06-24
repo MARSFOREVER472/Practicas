@@ -36,7 +36,12 @@ NÚMEROS PARES DESDE "a" HASTA "b".
 function numerosPares(a = 0, b = 0)
 {
     let nums=[];
-    console.log(nums);
+    // console.log(nums);
+
+    for (let i = a; i <= b; i++)
+    {
+        console.log(i);
+    }
 }
  
 
@@ -46,4 +51,4 @@ operacionMatematica(2, 2, "suma"); // DA 4 EL RESULTADO.
 operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
-numerosPares();
+numerosPares(2, 8); // DESPLIEGA LOS NÚMEROS PARES DENTRO DE UN ARREGLO.
