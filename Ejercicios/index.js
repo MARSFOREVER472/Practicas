@@ -28,9 +28,22 @@ function operacionMatematica(a, b, operation)
 
 }
 
+/*
+EJERCICIO 2: REALIZAR UNA FUNCIÓN QUE PERMITA ALMACENAR EN UN ARREGLO TODOS LOS
+NÚMEROS PARES DESDE "a" HASTA "b".
+*/
+
+function numerosPares(a = 0, b = 0)
+{
+    let nums=[];
+    console.log(nums);
+}
+ 
+
 // EJECUCIÓN DE FUNCIONES...
 
 operacionMatematica(2, 2, "suma"); // DA 4 EL RESULTADO.
 operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
+numerosPares();
