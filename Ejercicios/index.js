@@ -40,8 +40,12 @@ function numerosPares(a = 0, b = 0)
 
     for (let i = a; i <= b; i++)
     {
-        console.log(i);
+        // console.log(i);
+
+        if (i % 2 === 0) // SI ES UN NÚMERO PAR...
+            nums.push(i); // DESPLIEGA EL ARREGLO CON TODOS LOS NÚMEROS PARES.
     }
+    console.log(nums);
 }
  
 
@@ -51,4 +55,4 @@ operacionMatematica(2, 2, "suma"); // DA 4 EL RESULTADO.
 operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
-numerosPares(2, 8); // DESPLIEGA LOS NÚMEROS PARES DENTRO DE UN ARREGLO.
+numerosPares(2, 100); // DESPLIEGA LOS NÚMEROS PARES DENTRO DE UN ARREGLO.
