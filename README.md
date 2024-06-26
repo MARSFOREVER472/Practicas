@@ -9,4 +9,4 @@
 
   **_NOTA: Si el parámetro de la operación no es válido que arroje un error personalizado a la consola._**
 
-  **_2.- Realizar una función que permita ALMACENAR EN UN ARREGLO TODOS LOS NÚMEROS PARES DESDE "a" HASTA "b"._**
+  **_2.- Realizar una función que permita almacenar EN UN ARREGLO TODOS LOS NÚMEROS PARES DESDE "a" HASTA "b"._**
