@@ -32,6 +32,6 @@
               break;
       }
 
-}
+  }
 
   **_2.- Realizar una función que permita almacenar en un arreglo rtodos los números pares desde "a" hasta "b"._**
