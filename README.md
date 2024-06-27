@@ -11,4 +11,27 @@
 
   **_Desarrollo de este ejercicio: Mediante código..._**
 
+  // LLAMAREMOS A LA FUNCIÓN...
+
+function operacionMatematica(a, b, operation)
+{
+    // USAREMOS LA ITERACIÓN "switch" PARA CADA OPERACIÓN MATEMÁTICA CON 2 TÉRMINOS...
+
+    switch(operation)
+    {
+        case "suma": // SI ES UNA SUMA...
+            return console.log(a + b); // RETORNA EL VALOR DE LA SUMA.
+        case "resta": // SI ES UNA RESTA...
+            return console.log(a - b); // RETORNA EL VALOR DE LA RESTA.
+        case "multiplicacion": // SI ES UNA MULTIPLICACIÓN...
+            return console.log(a * b); // RETORNA EL VALOR DE LA MULTIPLICACIÓN.
+        case "division": // SI ES UNA DIVISIÓN...
+            return console.log(a / b); // RETORNA EL VALOR DE LA DIVISIÓN.
+        default:
+            console.error(`La operacion ${operation} no existe!!`)
+            break;
+    }
+
+}
+
   **_2.- Realizar una función que permita almacenar en un arreglo rtodos los números pares desde "a" hasta "b"._**
