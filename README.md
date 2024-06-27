@@ -17,7 +17,7 @@
   {
       // USAREMOS LA ITERACIÓN "switch" PARA CADA OPERACIÓN MATEMÁTICA CON 2 TÉRMINOS...
 
-    switch(operation)
+      switch(operation)
     {
         case "suma": // SI ES UNA SUMA...
             return console.log(a + b); // RETORNA EL VALOR DE LA SUMA.
