@@ -9,6 +9,6 @@
 
   **_NOTA: Si el parámetro de la operación no es válido que arroje un error personalizado a la consola._**
 
-  Desarrollo de este ejercicio: Mediante código...
+  _Desarrollo de este ejercicio: Mediante código..._
 
   **_2.- Realizar una función que permita almacenar en un arreglo rtodos los números pares desde "a" hasta "b"._**
