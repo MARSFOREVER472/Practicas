@@ -26,7 +26,7 @@
           case "multiplicacion": // SI ES UNA MULTIPLICACIÓN...
               return console.log(a * b); // RETORNA EL VALOR DE LA MULTIPLICACIÓN.
           case "division": // SI ES UNA DIVISIÓN...
-            return console.log(a / b); // RETORNA EL VALOR DE LA DIVISIÓN.
+              return console.log(a / b); // RETORNA EL VALOR DE LA DIVISIÓN.
         default:
             console.error(`La operacion ${operation} no existe!!`)
             break;
