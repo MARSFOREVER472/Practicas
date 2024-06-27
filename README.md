@@ -30,7 +30,7 @@
           default:
               console.error(`La operacion ${operation} no existe!!`)
               break;
-    }
+      }
 
 }
 
