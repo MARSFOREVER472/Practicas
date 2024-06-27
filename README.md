@@ -7,7 +7,7 @@
 
   **_1.- Realizar una función que nos permita realizar las 4 operaciones aritméticas, es decir, que nos permita sumar, restar, dividir y multiplicar. La función debe recibir 3 parámetros, dos de ellos deben ser los valores (a y b) y uno el nombre de la operación (en minúsculas)._**
 
-  Desarrollo:
+  Desarrollo de este ejercicio:
 
   **_NOTA: Si el parámetro de la operación no es válido que arroje un error personalizado a la consola._**
 
