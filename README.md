@@ -9,7 +9,7 @@
 
   **_NOTA: Si el parámetro de la operación no es válido que arroje un error personalizado a la consola._**
 
-  **_Desarrollo de este ejercicio: Mediante código..._**
+  **_Desarrollo de este ejercicio: Mediante el siguiente código..._**
 ```
   // LLAMAREMOS A LA FUNCIÓN...
 
