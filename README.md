@@ -35,3 +35,18 @@
   }
 ```
   **_2.- Realizar una función que permita almacenar en un arreglo rtodos los números pares desde "a" hasta "b"._**
+
+function numerosPares(a = 0, b = 0)
+{
+    let nums=[];
+    // console.log(nums);
+
+    for (let i = a; i <= b; i++)
+    {
+        // console.log(i);
+
+        if (i % 2 === 0) // SI ES UN NÚMERO PAR...
+            nums.push(i); // DESPLIEGA EL ARREGLO CON TODOS LOS NÚMEROS PARES.
+    }
+    console.log(nums);
+}
