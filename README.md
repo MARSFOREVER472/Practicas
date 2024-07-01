@@ -56,7 +56,7 @@
                function tablasValores(a = 0, x = 12)
                {
                    let result;
-    for (let i = 0; i <= x; i++)
+                   for (let i = 0; i <= x; i++)
         {
             console.log(i);
         }
