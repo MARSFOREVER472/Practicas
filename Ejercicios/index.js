@@ -47,6 +47,20 @@ function numerosPares(a = 0, b = 0)
     }
     console.log(nums);
 }
+
+/*
+3.- Realizar una tabla de multiplicación de un número (a) desde 0 hasta x, pero sin contar con la multiplicación de a * 5.
+*/
+
+function tablasValores(a = 0, x = 12)
+{
+    let result;
+    for (let i = 0; i <= x; i++)
+        {
+            console.log(i);
+        }
+
+}
  
 
 // EJECUCIÓN DE FUNCIONES...
@@ -56,3 +70,4 @@ operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CON
 operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 numerosPares(2, 100); // DESPLIEGA LOS NÚMEROS PARES DENTRO DE UN ARREGLO.
+tablasValores();
