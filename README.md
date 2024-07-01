@@ -58,7 +58,7 @@
                    let result;
                    for (let i = 0; i <= x; i++)
                    {
-            console.log(i);
+                       console.log(i);
         }
 
 }
