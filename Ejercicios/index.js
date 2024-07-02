@@ -57,7 +57,8 @@ function tablasValores(a = 0, x = 12)
     let result;
     for (let i = 0; i <= x; i++)
         {
-            console.log(i);
+            result = a * i;
+            console.log(result);
         }
 
 }
@@ -70,4 +71,4 @@ operacionMatematica(10, 10, "resta"); // RESTA DE 2 NÚMEROS DESPLEGADOS POR CON
 operacionMatematica(4, 4, "multiplicacion"); // MULTIPLICACIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 operacionMatematica(15, 5, "division"); // DIVISIÓN DE 2 NÚMEROS DESPLEGADOS POR CONSOLA.
 numerosPares(2, 100); // DESPLIEGA LOS NÚMEROS PARES DENTRO DE UN ARREGLO.
-tablasValores();
+tablasValores(2, 20);
