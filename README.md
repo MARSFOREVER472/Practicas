@@ -35,3 +35,30 @@
   }
 ```
   **_2.- Realizar una función que permita almacenar en un arreglo rtodos los números pares desde "a" hasta "b"._**
+
+              function numerosPares(a = 0, b = 0)
+              {
+                   let nums=[];
+                // console.log(nums);
+
+                   for (let i = a; i <= b; i++)
+                   {
+                       // console.log(i);
+
+                       if (i % 2 === 0) // SI ES UN NÚMERO PAR...
+                       nums.push(i); // DESPLIEGA EL ARREGLO CON TODOS LOS NÚMEROS PARES.
+                   }
+                   console.log(nums);
+               }
+
+**_3.- Realizar una tabla de multiplicación de un número (a) desde 0 hasta x, pero sin contar con la multiplicación de a * 5._**
+
+               function tablasValores(a = 0, x = 12)
+               {
+                   let result;
+                   for (let i = 0; i <= x; i++)
+                   {
+                       console.log(i);
+                   }
+
+               }
