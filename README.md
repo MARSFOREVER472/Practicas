@@ -55,7 +55,7 @@
 
                function tablasValores(a = 0, x = 12)
                {
-     // let result;
+                      // let result;
     for (let i = 0; i <= x; i++)
     {
             // result = a * i;
