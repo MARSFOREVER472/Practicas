@@ -59,7 +59,7 @@
                       for (let i = 0; i <= x; i++)
                       {
                           // result = a * i;
-            // console.log(result);
+                          // console.log(result);
 
             // CUANDO NO CONSIDERE EL MÚLTIPLO DE 5...
 
