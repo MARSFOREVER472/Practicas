@@ -54,7 +54,7 @@
 **_3.- Realizar una tabla de multiplicación de un número (a) desde 0 hasta x, pero sin contar con la multiplicación de a * 5._**
 
                function tablasValores(a = 0, x = 12)
-  {
+   {
     // let result;
     for (let i = 0; i <= x; i++)
     {
