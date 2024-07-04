@@ -54,11 +54,17 @@
 **_3.- Realizar una tabla de multiplicación de un número (a) desde 0 hasta x, pero sin contar con la multiplicación de a * 5._**
 
                function tablasValores(a = 0, x = 12)
-               {
-                   let result;
-                   for (let i = 0; i <= x; i++)
-                   {
-                       console.log(i);
-                   }
+{
+    // let result;
+    for (let i = 0; i <= x; i++)
+    {
+            // result = a * i;
+            // console.log(result);
 
-               }
+            // CUANDO NO CONSIDERE EL MÚLTIPLO DE 5...
+
+        if (i !== 5)
+        console.log(`${a} * ${i} = ${a * i}`);
+    }
+
+}
