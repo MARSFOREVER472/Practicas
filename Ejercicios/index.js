@@ -54,12 +54,17 @@ function numerosPares(a = 0, b = 0)
 
 function tablasValores(a = 0, x = 12)
 {
-    let result;
+    // let result;
     for (let i = 0; i <= x; i++)
-        {
-            result = a * i;
-            console.log(result);
-        }
+    {
+            // result = a * i;
+            // console.log(result);
+
+            // CUANDO NO CONSIDERE EL MÚLTIPLO DE 5...
+
+        if (i !== 5)
+        console.log(`${a} * ${i} = ${a * i}`);
+    }
 
 }
  
