@@ -64,7 +64,7 @@
                           // CUANDO NO CONSIDERE EL MÚLTIPLO DE 5...
 
                           if (i !== 5)
-        console.log(`${a} * ${i} = ${a * i}`);
+                          console.log(`${a} * ${i} = ${a * i}`);
     }
 
 }
