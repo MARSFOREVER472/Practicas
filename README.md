@@ -69,4 +69,4 @@
 
                }
 
-_4.- Hacer una función que filtre todos los números que sean múltiplos del 3 de un arreglo que contenga los números del 1 al 100._
+**_4.- Hacer una función que filtre todos los números que sean múltiplos del 3 de un arreglo que contenga los números del 1 al 100._**
