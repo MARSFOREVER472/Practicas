@@ -70,3 +70,18 @@
                }
 
 **_4.- Hacer una función que filtre todos los números que sean múltiplos del 3 de un arreglo que contenga los números del 1 al 100._**
+
+
+@CrIstRoMbOn
+hace 1 año
+Lo solucioné así:
+
+function ejercicio4 (a = 1, b = 100){
+
+    let multiplos = [];
+
+    for(let i = a; i <= b; i ++){
+        if(i % 3 === 0) multiplos.push(i); 
+    }
+    console.log(multiplos);
+}
