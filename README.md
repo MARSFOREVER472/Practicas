@@ -73,7 +73,7 @@
 
                           function ejercicio4 (a = 1, b = 100){
 
-           let multiplos = [];
+            let multiplos = [];
 
     for(let i = a; i <= b; i ++){
         if(i % 3 === 0) multiplos.push(i); 
