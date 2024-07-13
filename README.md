@@ -78,5 +78,5 @@
                           for(let i = a; i <= b; i ++){
                           if(i % 3 === 0) multiplos.push(i); 
                           }
-    console.log(multiplos);
+                              console.log(multiplos);
 }
